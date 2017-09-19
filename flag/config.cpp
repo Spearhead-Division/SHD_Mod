@@ -1,6 +1,5 @@
-ines (34 sloc) 604 Bytes
- class CfgPatches
- {
+class CfgPatches
+{
 	class SHD_Mod_West
 	{
 		units[] = {"SHD_FlagCarrierEU"};
@@ -11,7 +10,7 @@ ines (34 sloc) 604 Bytes
 };
 class CfgFactionClasses
 {
-	class SHD_Faction
+	class SHD_Flag
 	{
 		icon = "\SHD_Mod\flag\data\shd_pinup_512x256.paa";
 		displayName = "Fahne (SHD)";
@@ -22,14 +21,14 @@ class CfgFactionClasses
 class CfgVehicles
 {
 	class SHD_FlagCarrierEU;
-	class SHD_Faction: SHD_FlagCarrierEU
+	class SHD_Flag: SHD_FlagCarrierEU
 	{
 		scope = 2;
 		accuarcy = 1000;
-		displayName = "SHD";
+		displayName = "Fahne (SHD)";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\flag\data\shd_pinup_512x256.paa""";
+			init = "(_this select 0) setFlagTexture ""SHD_Mod\flag\data\shd_pinup_512x256.paa""";
 		};
 	};
 };
