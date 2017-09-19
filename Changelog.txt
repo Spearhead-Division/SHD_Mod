@@ -1,4 +1,7 @@
 # Changelog Legend
 
+## Version v0.2
+~ Bugfixing 
+
 ## Version v0.1
 + Fahne mit SHD Logo
