@@ -1,4 +1,4 @@
-## Spearhead Division Modpack v0.1
+## Spearhead Division Modpack v0.3
 ***************************
 bulid by Raychan, Highping
 
