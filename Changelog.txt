@@ -1,5 +1,9 @@
 # Changelog Legend
 
+## Version v0.3
++ English/German Support
+~ Code Optimize
+
 ## Version v0.2
 ~ Bugfixing 
 
