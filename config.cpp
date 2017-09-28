@@ -4,16 +4,12 @@ class CfgPatches
 	{
 		units[] = {"SHD_FlagCarrierEU"};
 		weapons[] = {};
-		requiredVersion = 1.0;
+		requiredVersion = 0.1;
 		requiredAddons[] = {};
-	};
-};
-class CfgVehicles
-{
-	class FlagCarrier;
-	class SHD_FlagCarrierEU: FlagCarrier
-	{
-		icon = "\SHD_Mod\flag\data\i_flag_ca.paa";
+		author="[SHD] Spearhead Division";
+		authors[] = { "Raychan", "HighPing"};
+		authorURL = "https://github.com/Spearhead-Division/";
 	};
 };
 
+#include "CfgVehicles.hpp"
