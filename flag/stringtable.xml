@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="SHD_Mod">
+    <Package name="flag">
+        <Key ID="STR_SHD_flag_DisplayName">
+            <English>Flag (SHD)</English>
+            <German>Fahne (SHD)</German>
+        </Key>
+  </Package>
+</Project>
